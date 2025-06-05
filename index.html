@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Sareen - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Aman Sareen</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="mode-toggle"><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="gradient-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">
+                    <span id="typewriter"></span>
+                </h1>
+                <h2 class="fade-in delay-1">Web Developer & Designer</h2>
+                <p class="fade-in delay-2">Building digital experiences with clean code and creativity.</p>
+                <div class="hero-buttons fade-in delay-3">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-header">
+                <h2>About Me</h2>
+                <div class="about-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="profile-img">
+                    <img src="aman formal.jpg" alt="Aman Sareen">
+                </div>
+                <div class="about-text">
+                    <p><h1 class="bold-text">Frontend Developer | MCA Final-Year Student</h1>
+                        
+
+                     A motivated final-year MCA student with a solid foundation in web development (HTML, CSS, JavaScript), strong programming skills (C Language), and experience in UI development and responsive design. Passionate about building user-friendly, accessible, and performant web interfaces.
+
+                     <br>
+
+                     Skilled at turning design mockups into fully functional components using modern tools and frameworks like React.js. Proven ability to work effectively in team environments and deliver results under deadlines. Eager to contribute to dynamic roles in frontend development, UI/UX implementation, or web-based application design..</p>
+                    <div class="skills">
+                        <div class="skill-bar">
+                            <span>HTML5 <i class="fab fa-html5"></i></span>
+                            <div class="bar"><div class="progress" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>Tailwind CSS3 <i class="fab fa-css3-alt"></i></span>
+                            <div class="bar"><div class="progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>JavaScript <i class="fab fa-js"></i></span>
+                            <div class="bar"><div class="progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span><React class="js">React.js</React> <i class="fab fa-python"></i></span>
+                            <div class="bar"><div class="progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-id="1">
+                    <img src="weather img2.avif" alt="Weather App">
+                    <div class="project-info">
+                        <h3>Weather App (HTML, CSS, JavaScript)</h3>
+                        <p>• Built a weather forecasting app using HTML, CSS, and JavaScript that
+                            fetches real-time data from a weather API (e.g., OpenWeatherMap).
+                            <br>
+                         • Integrated asynchronous API calls (async/await) to fetch and display
+                          weather data dynamically.
+</p>
+                    </div>
+                </div>
+                <div class="project-card" data-id="2">
+                    <img src="note img.jpg" alt="PASTE — A Code / Note Saver">
+                    <div class="project-info">
+                        <h3>PASTE — A Code / Note Saver React App</h3>
+                        <p>• Developed a dynamic, user-friendly web application for saving,
+                             managing, and organizing code snippets or notes using React.js,
+                             HTML, CSS, and JavaScript.
+                             <br>
+                             • Implemented a real-time database using Firebase Firestore, enabling
+                             users to create, update, and delete notes instantly.
+                             <br>
+                             • Used React Hooks (useState, useEffect) and custom hooks for clean
+                             state management.
+                             <br>
+                             • Deployed the app using Vercel or Netlify for seamless access and fast
+                             loading speeds.
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="website" style="display:none">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <a href="Aman Sareen - Front-end Developer_Resume.pdf" class="btn btn-primary" download style="margin-top:20px;">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aman-sareen-67941b205" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sareen25" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a> -->
+            </div>
+            <p>&copy; 2025 Aman Sareen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-body">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" title="Back to top">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
