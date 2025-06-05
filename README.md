@@ -1,6 +1,6 @@
-# Abu Rayyan's Web Development & Design Portfolio
+# Aman sareen's Web Development & Design Portfolio
 
-Welcome to the official portfolio of Abu Rayyan! This space showcases a collection of projects reflecting expertise in web development and a passion for creative design. Explore the projects to see a blend of technical skills and artistic vision in action.
+Welcome to the official portfolio of Aman sareen! This space showcases a collection of projects reflecting expertise in web development and a passion for creative design. Explore the projects to see a blend of technical skills and artistic vision in action.
 
 ## Features
 
